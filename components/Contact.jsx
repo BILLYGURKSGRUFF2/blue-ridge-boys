@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Phone, Mail, Clock, CheckCircle } from "lucide-react";
+import { Mail, Clock, CheckCircle } from "lucide-react";
 
 const SERVICES = [
   "Home / Full Cleanout",
@@ -63,25 +63,10 @@ export default function Contact() {
             </h2>
             <p className="font-sans text-cream/60 text-base leading-relaxed mb-10 max-w-sm">
               Fill out the form and we&apos;ll get back to you within the hour — or
-              just give us a call. We&apos;re real people, not robots.
+              shoot us an email. We&apos;re real people, not robots.
             </p>
 
             <div className="flex flex-col gap-5">
-              <div className="flex items-center gap-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-2xl bg-moss/20 flex items-center justify-center">
-                  <Phone size={16} className="text-clay" />
-                </div>
-                <div>
-                  <p className="font-sans font-medium text-cream text-sm">Call or Text</p>
-                  <a
-                    href="tel:+15405550199"
-                    className="font-mono text-cream/50 text-sm hover:text-cream transition-colors"
-                  >
-                    (540) 555-0199
-                  </a>
-                </div>
-              </div>
-
               <div className="flex items-center gap-4">
                 <div className="flex-shrink-0 w-10 h-10 rounded-2xl bg-moss/20 flex items-center justify-center">
                   <Mail size={16} className="text-clay" />
@@ -207,7 +192,7 @@ export default function Contact() {
 
                 {status === "error" && (
                   <p className="font-mono text-xs text-red-500">
-                    Something went wrong. Please call us directly at (540) 555-0199.
+                    Something went wrong. Please email us at blueridgeboysjr@gmail.com.
                   </p>
                 )}
 

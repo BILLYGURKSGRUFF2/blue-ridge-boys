@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
-import { ArrowDown, Phone } from "lucide-react";
+import { ArrowDown, Mail } from "lucide-react";
 import gsap from "gsap";
 
 export default function Hero() {
@@ -83,11 +83,11 @@ export default function Hero() {
             Get a Free Quote
           </a>
           <a
-            href="tel:+15405550199"
+            href="mailto:blueridgeboysjr@gmail.com"
             className="hero-cta flex items-center gap-2 text-cream/80 hover:text-cream font-medium transition-colors link-lift opacity-0"
           >
-            <Phone size={16} />
-            <span className="font-mono text-sm">(540) 555-0199</span>
+            <Mail size={16} />
+            <span className="font-mono text-sm">blueridgeboysjr@gmail.com</span>
           </a>
         </div>
       </div>

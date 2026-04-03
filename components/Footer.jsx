@@ -1,4 +1,4 @@
-import { Phone, Mail, Share2, Camera } from "lucide-react";
+import { Mail, Share2, Camera } from "lucide-react";
 
 const NAV = [
   { label: "Services", href: "#services" },
@@ -33,18 +33,11 @@ export default function Footer() {
             </p>
             <div className="flex flex-col gap-2 mt-2">
               <a
-                href="tel:+15405550199"
-                className="flex items-center gap-2 text-cream/60 hover:text-cream text-sm transition-colors link-lift"
-              >
-                <Phone size={13} />
-                <span className="font-mono">(540) 555-0199</span>
-              </a>
-              <a
-                href="mailto:hello@blueridgeboys.com"
+                href="mailto:blueridgeboysjr@gmail.com"
                 className="flex items-center gap-2 text-cream/60 hover:text-cream text-sm transition-colors link-lift"
               >
                 <Mail size={13} />
-                <span className="font-mono">hello@blueridgeboys.com</span>
+                <span className="font-mono">blueridgeboysjr@gmail.com</span>
               </a>
             </div>
             <div className="flex gap-3 mt-2">

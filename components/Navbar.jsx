@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { Phone } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const LINKS = [
   { label: "Services", href: "#services" },
@@ -61,13 +61,13 @@ export default function Navbar() {
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="tel:+15405550199"
+            href="mailto:blueridgeboysjr@gmail.com"
             className={`flex items-center gap-1.5 text-sm font-medium transition-colors duration-300 link-lift ${
               scrolled ? "text-charcoal/60 hover:text-moss" : "text-cream/70 hover:text-cream"
             }`}
           >
-            <Phone size={13} />
-            (540) 555-0199
+            <Mail size={13} />
+            blueridgeboysjr@gmail.com
           </a>
           <a
             href="#contact"
@@ -111,10 +111,10 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="tel:+15405550199"
+            href="mailto:blueridgeboysjr@gmail.com"
             className="flex items-center gap-2 text-charcoal/60 text-sm"
           >
-            <Phone size={14} /> (540) 555-0199
+            <Mail size={14} /> blueridgeboysjr@gmail.com
           </a>
           <a
             href="#contact"
